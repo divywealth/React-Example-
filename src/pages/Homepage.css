@@ -1,0 +1,34 @@
+.main {
+    border: solid 1px #000;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main span {
+    cursor: pointer;
+}
+.input {
+    margin-top: 20px;
+    text-align: center;
+}
+.input div {
+    margin-top: 10px;
+}
+.myForm {
+    margin: 0px 40%;
+    white-space: nowrap
+}
+.myForm form label {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+.myForm form input {
+    margin-top: 5px;
+}
+.myForm form button {
+    display: block;
+    margin-top: 10px;
+}
